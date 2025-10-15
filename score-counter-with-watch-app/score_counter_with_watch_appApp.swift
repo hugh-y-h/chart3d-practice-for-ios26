@@ -11,7 +11,8 @@ import SwiftUI
 struct score_counter_with_watch_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            PenguinPointCharts()
         }
     }
 }
