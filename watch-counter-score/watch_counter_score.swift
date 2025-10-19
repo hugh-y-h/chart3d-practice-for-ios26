@@ -9,7 +9,7 @@ import AppIntents
 
 struct watch_counter_score: AppIntent {
     static var title: LocalizedStringResource { "watch-counter-score" }
-    
+
     func perform() async throws -> some IntentResult {
         return .result()
     }

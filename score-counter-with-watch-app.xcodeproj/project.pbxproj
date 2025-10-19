@@ -24,12 +24,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA888FD42E9D3E330097C728 /* watch-counter-score.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = "watch-counter-score.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA7499F2E9D26C60002007F /* score-counter-with-watch-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "score-counter-with-watch-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA749AC2E9D26C70002007F /* score-counter-with-watch-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score-counter-with-watch-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA749B62E9D26C70002007F /* score-counter-with-watch-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score-counter-with-watch-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BA888FDD2E9D3E330097C728 /* Exceptions for "watch-counter-score" folder in "watch-counter-score" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BA888FD32E9D3E330097C728 /* watch-counter-score */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		BA888FD52E9D3E330097C728 /* watch-counter-score */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA888FDD2E9D3E330097C728 /* Exceptions for "watch-counter-score" folder in "watch-counter-score" target */,
+			);
+			path = "watch-counter-score";
+			sourceTree = "<group>";
+		};
 		BAA749A12E9D26C60002007F /* score-counter-with-watch-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "score-counter-with-watch-app";
@@ -48,6 +67,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BA888FD12E9D3E330097C728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAA7499C2E9D26C60002007F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +104,7 @@
 				BAA749A12E9D26C60002007F /* score-counter-with-watch-app */,
 				BAA749AF2E9D26C70002007F /* score-counter-with-watch-appTests */,
 				BAA749B92E9D26C70002007F /* score-counter-with-watch-appUITests */,
+				BA888FD52E9D3E330097C728 /* watch-counter-score */,
 				BAA749A02E9D26C60002007F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +115,7 @@
 				BAA7499F2E9D26C60002007F /* score-counter-with-watch-app.app */,
 				BAA749AC2E9D26C70002007F /* score-counter-with-watch-appTests.xctest */,
 				BAA749B62E9D26C70002007F /* score-counter-with-watch-appUITests.xctest */,
+				BA888FD42E9D3E330097C728 /* watch-counter-score.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +123,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BA888FD32E9D3E330097C728 /* watch-counter-score */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA888FDE2E9D3E330097C728 /* Build configuration list for PBXNativeTarget "watch-counter-score" */;
+			buildPhases = (
+				BA888FD02E9D3E330097C728 /* Sources */,
+				BA888FD12E9D3E330097C728 /* Frameworks */,
+				BA888FD22E9D3E330097C728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA888FD52E9D3E330097C728 /* watch-counter-score */,
+			);
+			name = "watch-counter-score";
+			packageProductDependencies = (
+			);
+			productName = "watch-counter-score";
+			productReference = BA888FD42E9D3E330097C728 /* watch-counter-score.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
 		BAA7499E2E9D26C60002007F /* score-counter-with-watch-app */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA749C02E9D26C70002007F /* Build configuration list for PBXNativeTarget "score-counter-with-watch-app" */;
@@ -173,6 +223,9 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					BA888FD32E9D3E330097C728 = {
+						CreatedOnToolsVersion = 26.0;
+					};
 					BAA7499E2E9D26C60002007F = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -203,11 +256,19 @@
 				BAA7499E2E9D26C60002007F /* score-counter-with-watch-app */,
 				BAA749AB2E9D26C70002007F /* score-counter-with-watch-appTests */,
 				BAA749B52E9D26C70002007F /* score-counter-with-watch-appUITests */,
+				BA888FD32E9D3E330097C728 /* watch-counter-score */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BA888FD22E9D3E330097C728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAA7499D2E9D26C60002007F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +293,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BA888FD02E9D3E330097C728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAA7499B2E9D26C60002007F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +337,68 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BA888FDB2E9D3E330097C728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watch-counter-score/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "watch-counter-score";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.watch-counter-score";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BA888FDC2E9D3E330097C728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watch-counter-score/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "watch-counter-score";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.watch-counter-score";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 		BAA749BE2E9D26C70002007F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -541,6 +671,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BA888FDE2E9D3E330097C728 /* Build configuration list for PBXNativeTarget "watch-counter-score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA888FDB2E9D3E330097C728 /* Debug */,
+				BA888FDC2E9D3E330097C728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BAA7499A2E9D26C60002007F /* Build configuration list for PBXProject "score-counter-with-watch-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
