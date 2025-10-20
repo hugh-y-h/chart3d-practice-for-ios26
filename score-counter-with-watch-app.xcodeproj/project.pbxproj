@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		BA998A4D2EA6883300A9858F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA749972E9D26C60002007F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA998A3F2EA6883200A9858F;
+			remoteInfo = "UIkit-ios26";
+		};
+		BA998A572EA6883300A9858F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA749972E9D26C60002007F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA998A3F2EA6883200A9858F;
+			remoteInfo = "UIkit-ios26";
+		};
+		BA998A812EA6887B00A9858F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA749972E9D26C60002007F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA998A6A2EA6887A00A9858F;
+			remoteInfo = "UIkit-ios26-textkit2";
+		};
+		BA998A8B2EA6887B00A9858F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA749972E9D26C60002007F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA998A6A2EA6887A00A9858F;
+			remoteInfo = "UIkit-ios26-textkit2";
+		};
 		BAA749AD2E9D26C70002007F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BAA749972E9D26C60002007F /* Project object */;
@@ -25,6 +53,12 @@
 
 /* Begin PBXFileReference section */
 		BA888FD42E9D3E330097C728 /* watch-counter-score.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = "watch-counter-score.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA998A402EA6883200A9858F /* UIkit-ios26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIkit-ios26.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA998A4C2EA6883300A9858F /* UIkit-ios26Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIkit-ios26Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA998A562EA6883300A9858F /* UIkit-ios26UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIkit-ios26UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA998A6B2EA6887A00A9858F /* UIkit-ios26-textkit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIkit-ios26-textkit2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA998A802EA6887B00A9858F /* UIkit-ios26-textkit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIkit-ios26-textkit2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA998A8A2EA6887B00A9858F /* UIkit-ios26-textkit2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIkit-ios26-textkit2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA7499F2E9D26C60002007F /* score-counter-with-watch-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "score-counter-with-watch-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA749AC2E9D26C70002007F /* score-counter-with-watch-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score-counter-with-watch-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA749B62E9D26C70002007F /* score-counter-with-watch-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score-counter-with-watch-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +72,13 @@
 			);
 			target = BA888FD32E9D3E330097C728 /* watch-counter-score */;
 		};
+		BA998A922EA6887B00A9858F /* Exceptions for "UIkit-ios26-textkit2" folder in "UIkit-ios26-textkit2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BA998A6A2EA6887A00A9858F /* UIkit-ios26-textkit2 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -47,6 +88,24 @@
 				BA888FDD2E9D3E330097C728 /* Exceptions for "watch-counter-score" folder in "watch-counter-score" target */,
 			);
 			path = "watch-counter-score";
+			sourceTree = "<group>";
+		};
+		BA998A6C2EA6887A00A9858F /* UIkit-ios26-textkit2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA998A922EA6887B00A9858F /* Exceptions for "UIkit-ios26-textkit2" folder in "UIkit-ios26-textkit2" target */,
+			);
+			path = "UIkit-ios26-textkit2";
+			sourceTree = "<group>";
+		};
+		BA998A832EA6887B00A9858F /* UIkit-ios26-textkit2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UIkit-ios26-textkit2Tests";
+			sourceTree = "<group>";
+		};
+		BA998A8D2EA6887B00A9858F /* UIkit-ios26-textkit2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UIkit-ios26-textkit2UITests";
 			sourceTree = "<group>";
 		};
 		BAA749A12E9D26C60002007F /* score-counter-with-watch-app */ = {
@@ -68,6 +127,48 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BA888FD12E9D3E330097C728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A3D2EA6883200A9858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A492EA6883300A9858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A532EA6883300A9858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A682EA6887A00A9858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A7D2EA6887B00A9858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A872EA6887B00A9858F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,6 +206,9 @@
 				BAA749AF2E9D26C70002007F /* score-counter-with-watch-appTests */,
 				BAA749B92E9D26C70002007F /* score-counter-with-watch-appUITests */,
 				BA888FD52E9D3E330097C728 /* watch-counter-score */,
+				BA998A6C2EA6887A00A9858F /* UIkit-ios26-textkit2 */,
+				BA998A832EA6887B00A9858F /* UIkit-ios26-textkit2Tests */,
+				BA998A8D2EA6887B00A9858F /* UIkit-ios26-textkit2UITests */,
 				BAA749A02E9D26C60002007F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,6 +220,12 @@
 				BAA749AC2E9D26C70002007F /* score-counter-with-watch-appTests.xctest */,
 				BAA749B62E9D26C70002007F /* score-counter-with-watch-appUITests.xctest */,
 				BA888FD42E9D3E330097C728 /* watch-counter-score.appex */,
+				BA998A402EA6883200A9858F /* UIkit-ios26.app */,
+				BA998A4C2EA6883300A9858F /* UIkit-ios26Tests.xctest */,
+				BA998A562EA6883300A9858F /* UIkit-ios26UITests.xctest */,
+				BA998A6B2EA6887A00A9858F /* UIkit-ios26-textkit2.app */,
+				BA998A802EA6887B00A9858F /* UIkit-ios26-textkit2Tests.xctest */,
+				BA998A8A2EA6887B00A9858F /* UIkit-ios26-textkit2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +254,133 @@
 			productName = "watch-counter-score";
 			productReference = BA888FD42E9D3E330097C728 /* watch-counter-score.appex */;
 			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		BA998A3F2EA6883200A9858F /* UIkit-ios26 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA998A5E2EA6883300A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26" */;
+			buildPhases = (
+				BA998A3C2EA6883200A9858F /* Sources */,
+				BA998A3D2EA6883200A9858F /* Frameworks */,
+				BA998A3E2EA6883200A9858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIkit-ios26";
+			packageProductDependencies = (
+			);
+			productName = "UIkit-ios26";
+			productReference = BA998A402EA6883200A9858F /* UIkit-ios26.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA998A4B2EA6883300A9858F /* UIkit-ios26Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA998A612EA6883300A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26Tests" */;
+			buildPhases = (
+				BA998A482EA6883300A9858F /* Sources */,
+				BA998A492EA6883300A9858F /* Frameworks */,
+				BA998A4A2EA6883300A9858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA998A4E2EA6883300A9858F /* PBXTargetDependency */,
+			);
+			name = "UIkit-ios26Tests";
+			packageProductDependencies = (
+			);
+			productName = "UIkit-ios26Tests";
+			productReference = BA998A4C2EA6883300A9858F /* UIkit-ios26Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA998A552EA6883300A9858F /* UIkit-ios26UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA998A642EA6883300A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26UITests" */;
+			buildPhases = (
+				BA998A522EA6883300A9858F /* Sources */,
+				BA998A532EA6883300A9858F /* Frameworks */,
+				BA998A542EA6883300A9858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA998A582EA6883300A9858F /* PBXTargetDependency */,
+			);
+			name = "UIkit-ios26UITests";
+			packageProductDependencies = (
+			);
+			productName = "UIkit-ios26UITests";
+			productReference = BA998A562EA6883300A9858F /* UIkit-ios26UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BA998A6A2EA6887A00A9858F /* UIkit-ios26-textkit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA998A932EA6887B00A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26-textkit2" */;
+			buildPhases = (
+				BA998A672EA6887A00A9858F /* Sources */,
+				BA998A682EA6887A00A9858F /* Frameworks */,
+				BA998A692EA6887A00A9858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA998A6C2EA6887A00A9858F /* UIkit-ios26-textkit2 */,
+			);
+			name = "UIkit-ios26-textkit2";
+			packageProductDependencies = (
+			);
+			productName = "UIkit-ios26-textkit2";
+			productReference = BA998A6B2EA6887A00A9858F /* UIkit-ios26-textkit2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA998A7F2EA6887B00A9858F /* UIkit-ios26-textkit2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA998A962EA6887B00A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26-textkit2Tests" */;
+			buildPhases = (
+				BA998A7C2EA6887B00A9858F /* Sources */,
+				BA998A7D2EA6887B00A9858F /* Frameworks */,
+				BA998A7E2EA6887B00A9858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA998A822EA6887B00A9858F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA998A832EA6887B00A9858F /* UIkit-ios26-textkit2Tests */,
+			);
+			name = "UIkit-ios26-textkit2Tests";
+			packageProductDependencies = (
+			);
+			productName = "UIkit-ios26-textkit2Tests";
+			productReference = BA998A802EA6887B00A9858F /* UIkit-ios26-textkit2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA998A892EA6887B00A9858F /* UIkit-ios26-textkit2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA998A992EA6887B00A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26-textkit2UITests" */;
+			buildPhases = (
+				BA998A862EA6887B00A9858F /* Sources */,
+				BA998A872EA6887B00A9858F /* Frameworks */,
+				BA998A882EA6887B00A9858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA998A8C2EA6887B00A9858F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA998A8D2EA6887B00A9858F /* UIkit-ios26-textkit2UITests */,
+			);
+			name = "UIkit-ios26-textkit2UITests";
+			packageProductDependencies = (
+			);
+			productName = "UIkit-ios26-textkit2UITests";
+			productReference = BA998A8A2EA6887B00A9858F /* UIkit-ios26-textkit2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		BAA7499E2E9D26C60002007F /* score-counter-with-watch-app */ = {
 			isa = PBXNativeTarget;
@@ -226,6 +463,28 @@
 					BA888FD32E9D3E330097C728 = {
 						CreatedOnToolsVersion = 26.0;
 					};
+					BA998A3F2EA6883200A9858F = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					BA998A4B2EA6883300A9858F = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = BA998A3F2EA6883200A9858F;
+					};
+					BA998A552EA6883300A9858F = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = BA998A3F2EA6883200A9858F;
+					};
+					BA998A6A2EA6887A00A9858F = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					BA998A7F2EA6887B00A9858F = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = BA998A6A2EA6887A00A9858F;
+					};
+					BA998A892EA6887B00A9858F = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = BA998A6A2EA6887A00A9858F;
+					};
 					BAA7499E2E9D26C60002007F = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -257,12 +516,60 @@
 				BAA749AB2E9D26C70002007F /* score-counter-with-watch-appTests */,
 				BAA749B52E9D26C70002007F /* score-counter-with-watch-appUITests */,
 				BA888FD32E9D3E330097C728 /* watch-counter-score */,
+				BA998A3F2EA6883200A9858F /* UIkit-ios26 */,
+				BA998A4B2EA6883300A9858F /* UIkit-ios26Tests */,
+				BA998A552EA6883300A9858F /* UIkit-ios26UITests */,
+				BA998A6A2EA6887A00A9858F /* UIkit-ios26-textkit2 */,
+				BA998A7F2EA6887B00A9858F /* UIkit-ios26-textkit2Tests */,
+				BA998A892EA6887B00A9858F /* UIkit-ios26-textkit2UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BA888FD22E9D3E330097C728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A3E2EA6883200A9858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A4A2EA6883300A9858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A542EA6883300A9858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A692EA6887A00A9858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A7E2EA6887B00A9858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A882EA6887B00A9858F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,6 +607,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA998A3C2EA6883200A9858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A482EA6883300A9858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A522EA6883300A9858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A672EA6887A00A9858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A7C2EA6887B00A9858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA998A862EA6887B00A9858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAA7499B2E9D26C60002007F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +673,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BA998A4E2EA6883300A9858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA998A3F2EA6883200A9858F /* UIkit-ios26 */;
+			targetProxy = BA998A4D2EA6883300A9858F /* PBXContainerItemProxy */;
+		};
+		BA998A582EA6883300A9858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA998A3F2EA6883200A9858F /* UIkit-ios26 */;
+			targetProxy = BA998A572EA6883300A9858F /* PBXContainerItemProxy */;
+		};
+		BA998A822EA6887B00A9858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA998A6A2EA6887A00A9858F /* UIkit-ios26-textkit2 */;
+			targetProxy = BA998A812EA6887B00A9858F /* PBXContainerItemProxy */;
+		};
+		BA998A8C2EA6887B00A9858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA998A6A2EA6887A00A9858F /* UIkit-ios26-textkit2 */;
+			targetProxy = BA998A8B2EA6887B00A9858F /* PBXContainerItemProxy */;
+		};
 		BAA749AE2E9D26C70002007F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BAA7499E2E9D26C60002007F /* score-counter-with-watch-app */;
@@ -396,6 +765,302 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BA998A5F2EA6883300A9858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA998A602EA6883300A9858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA998A622EA6883300A9858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIkit-ios26.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIkit-ios26";
+			};
+			name = Debug;
+		};
+		BA998A632EA6883300A9858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIkit-ios26.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIkit-ios26";
+			};
+			name = Release;
+		};
+		BA998A652EA6883300A9858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIkit-ios26";
+			};
+			name = Debug;
+		};
+		BA998A662EA6883300A9858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIkit-ios26";
+			};
+			name = Release;
+		};
+		BA998A942EA6887B00A9858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UIkit-ios26-textkit2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26-textkit2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA998A952EA6887B00A9858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UIkit-ios26-textkit2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26-textkit2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA998A972EA6887B00A9858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26-textkit2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIkit-ios26-textkit2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIkit-ios26-textkit2";
+			};
+			name = Debug;
+		};
+		BA998A982EA6887B00A9858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26-textkit2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIkit-ios26-textkit2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIkit-ios26-textkit2";
+			};
+			name = Release;
+		};
+		BA998A9A2EA6887B00A9858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26-textkit2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIkit-ios26-textkit2";
+			};
+			name = Debug;
+		};
+		BA998A9B2EA6887B00A9858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RND88PPCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hugh.UIkit-ios26-textkit2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIkit-ios26-textkit2";
 			};
 			name = Release;
 		};
@@ -676,6 +1341,60 @@
 			buildConfigurations = (
 				BA888FDB2E9D3E330097C728 /* Debug */,
 				BA888FDC2E9D3E330097C728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA998A5E2EA6883300A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA998A5F2EA6883300A9858F /* Debug */,
+				BA998A602EA6883300A9858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA998A612EA6883300A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA998A622EA6883300A9858F /* Debug */,
+				BA998A632EA6883300A9858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA998A642EA6883300A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA998A652EA6883300A9858F /* Debug */,
+				BA998A662EA6883300A9858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA998A932EA6887B00A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26-textkit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA998A942EA6887B00A9858F /* Debug */,
+				BA998A952EA6887B00A9858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA998A962EA6887B00A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26-textkit2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA998A972EA6887B00A9858F /* Debug */,
+				BA998A982EA6887B00A9858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA998A992EA6887B00A9858F /* Build configuration list for PBXNativeTarget "UIkit-ios26-textkit2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA998A9A2EA6887B00A9858F /* Debug */,
+				BA998A9B2EA6887B00A9858F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

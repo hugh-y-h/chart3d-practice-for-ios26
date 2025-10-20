@@ -12,13 +12,16 @@ struct ContentView: View {
     @State private var pose: Chart3DPose = .default
     
     var body: some View {
-        Chart3D {
-            SurfacePlot(x: "x", y: "y", z: "x") {
-                x, z in
-                sin(2 * x) * cos(2 * z)
-            }
+        VStack(spacing: 20) {
+            Text("阿拉伯语自动排版演示（TextKit 2）")
+                .font(.headline)
+            
+            // 展示阿拉伯语文本的自定义 TextView
+            CustomTextView()
+                .padding()
+                .border(Color.gray, width: 1) // 加边框便于观察范围
+                .padding()
         }
-        .chart3DPose($pose)
     }
 }
 

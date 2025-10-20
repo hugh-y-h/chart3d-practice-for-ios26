@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Charts
+import UIKit
 
 struct Insect: Identifiable {
     let id: Int
@@ -53,6 +54,7 @@ struct PenguinPointCharts: View {
         .chart3DPose($pose)
     }
 }
+
 
 #Preview {
     PenguinPointCharts()
